@@ -1,0 +1,520 @@
+@media only screen and (max-width: 1500px) {
+    .container{max-width: 94%;}
+}
+@media only screen and (max-width: 1380px) {
+    h1{font-size: 45px;}
+    h2{ font-size: 30px;}
+    .heading-content{width: 80%;}
+    .about-section{
+        padding: 80px 0px;
+    } 
+    .wcu-section .wcu-items{
+        padding-right: 0px;
+    }
+}
+@media only screen and (max-width: 1260px) {
+    h1{font-size: 40px;}
+    .description{font-size: 15px;}
+    .step-section .steps-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .testimonial-section .testimonial-silder{
+        width: 80%;
+    }
+    .whyChooseUs-points{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+@media only screen and (max-width: 1150px) {
+    h1{ 
+        font-size: 35px;
+    }
+    .heading-content{width: 90%;}
+ 
+    header .nav-bar .menu-section .menu{
+        position: fixed;
+        display: block;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: -100%;
+        background-color: var(--thm-base3);
+        padding: 100px 60px;
+        transition: 0.5s;
+        z-index: 5;  
+    }
+    header .nav-bar .menu-section .menu.show-menu{
+        left: 0;
+    }
+    .menu > li > a{
+       padding-top: 12px;
+       border-bottom: 2px solid var(--thm-black);
+    }
+    .menu li{
+        display: flex;
+        align-items: center;
+    }
+    header .nav-bar .menu-section .menu > li .mobile-drop-down{
+        display: block;
+        margin-top: 5px;
+    }
+    .menu .drop-down .drop-down-menu{
+        display: none;
+    }
+    .menu .drop-down .drop-down-menu.show-drop-down{
+        display: block;
+    }
+    .ham {
+        display: block;
+        z-index: 6;
+    }
+    header .top-header .container div p:nth-child(2){
+        display: none;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .mb-80{
+        margin-bottom: 60px;  
+    }
+    .mt-80{
+        margin-top: 60px;
+    }
+    .heading-content{width: 100%;}
+    .banner-section .row.row-change{
+        flex-direction: column-reverse;
+    }
+    .banner-section{
+        padding: 80px 0px;
+    }
+    .banner-section .banner-content{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .banner-section .banner-silder img{
+        width: 100% !important;
+    }
+    .banner-section .banner-btn{
+        justify-content: center;
+    }
+    .service-section .service-item {
+       margin-bottom: 65px;
+    }
+    .step-section .steps-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .testimonial-section .testimonial-silder{
+        width: 90%;
+    }
+    .whyChooseUs-points{
+        gap: 25px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header .top-header .container .top-header-div > a{
+        display: none;     
+    }
+    header .top-header > div{
+        justify-content: center;
+    }
+    header .top-header .container div p{
+        border-left: none;
+        padding-left: 0px;
+        border-right: 1px solid var(--thm-gray);
+        padding-right: 10px;
+    }
+    header .nav-bar .menu-section .nav-call a:last-child{
+        display: none;
+    }
+    header .nav-bar .menu-section .nav-call{
+        margin-right: -10px;
+    }
+    .service-section{
+        padding: 40px 0px 30px 0px;
+    }
+    .step-section.step-section2{
+        padding: 60px 0px;
+    }
+    .testimonial-section .testimonial-silder{
+        width: 100%;
+    }
+    .whyChooseUs-points{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+@media only screen and (max-width: 550px) {
+    .container{max-width: 95%;}
+    h1{font-size: 25px;}
+    h2{ font-size: 20px;}
+    h3{ font-size: 18px;}  
+    h4{ font-size: 16px;} 
+    h5{ font-size: 15px;} 
+    h6{ font-size: 13px;}
+    .mb-80{
+        margin-bottom: 40px;  
+    }
+    .mt-80{
+        margin-top: 40px;
+    }
+    .heading-tag{
+        margin-bottom: 3px;
+    }
+    .heading{
+        margin-bottom: 10px;
+    }
+    .description{
+        font-size: 13px;
+        margin-bottom: 9px;
+    }
+    header .top-header > div{
+        padding: 0px;
+    }
+    header .top-header .container div{
+        gap: 8px;
+        padding: 4px;
+    }
+    header .top-header .container div p{
+       font-size: 11px;
+       padding-right: 5px;
+    }
+    header .top-header .container div i{
+        font-size: 12px;
+    }
+    header .nav-bar > div{
+        padding: 5px;
+    }
+    header .nav-bar .logo{
+        width: 80%;
+    }
+    header .nav-bar .menu-section .menu{
+        padding: 100px 30px;
+    }
+    header .nav-bar .menu-section .menu .drop-down-menu{
+        width: 315px;
+        padding: 8px;
+    }
+    header .nav-bar .menu-section .menu .drop-down-menu li a{
+        padding: 5px 8px;
+        font-size: 15px;
+    }
+    header .nav-bar .menu-section .nav-call .btn-call{
+        font-size: 17px;
+        padding: 20px;
+    }
+    header .nav-bar .menu-section .nav-call .btn-call::before {
+        padding: 15px;
+        border: 4px solid var(--thm-base);
+    }
+    @keyframes pulse-border {
+        0% {padding: 20px; opacity: 0.75;}
+        75% {padding: 30px; opacity: 0;}
+        100% {opacity: 0;}
+    }
+    .ham {
+        margin: -15px; 
+        margin-left: -20px; 
+    }
+    .banner-section{
+        padding: 50px 0px;
+    }
+    .owl-dot {
+        width: 15px;
+        height: 5px;
+        margin-top: 20px !important;
+    }
+    .owl-dots .active {
+        width: 28px;
+    }
+    .banner-section .banner-content h6{
+        padding: 6px 20px;
+        margin-bottom: 4px;
+    }
+    .banner-section .banner-content h1{
+        margin-bottom: 8px;
+    }
+    .btn-box{
+        font-size: 12px;
+        border-radius: 4px;
+        padding: 12px 16px;
+    }
+    .about-section{
+        padding: 50px 0px;
+    }
+    .services-looking-for{
+        margin: 30px 0px;
+    }
+    .services-looking-for .service-silder .service-silder-item{
+        height: 120px;
+        padding: 6px;
+    }
+    .services-looking-for .service-silder .service-silder-item a img{
+        padding: 8px;
+    }
+    .service-section{
+        padding: 40px 0px 30px 0px;
+    }
+    .service-section .service-item .services-box{
+        padding: 8px 12px;
+        bottom: -25px;
+    }
+    .service-section .service-item .services-box p{
+        font-size: 13px;
+    }
+    .service-section .service-item .services-box a h4{
+        font-size: 16px;
+    }
+    .service-section .service-item {
+        margin-bottom: 45px;
+    }
+    .service-section .service-item .services-box a i{
+        font-size: 18px;
+    }
+    .step-section .steps-content .steps-items{
+        gap: 10px;
+        padding: 12px;
+        padding-top: 20px;
+    }
+    .step-section .steps-content .steps-items > div i{
+        font-size: 25px;
+    }
+    .step-section .steps-content .steps-items .steps-num{
+        font-size: 14px;
+        padding: 4px 15px;
+    }
+    .step-section .btn-box.style2{
+        margin-top: -30px;
+    }
+    .wcu-section{
+        padding: 40px 0px;
+    }
+    .wcu-section .wcu-items{
+        gap: 7px;
+    }
+    .wcu-section .wcu-items > div i{
+        font-size: 15px;
+    }
+    .accordion-item .accordion-button {
+        font-size: 14px;
+        padding: 12px;
+    }
+    .accordion-item {
+        border: none;
+        margin-bottom: 10px;
+    }
+    .accordion-body {
+        font-size: 14px;
+        padding: 12px;
+        margin-bottom: 10px;
+    }
+    .faq-section .faq-text{
+        width: 50%;
+        font-size: 60px;
+        bottom: 30px;
+        padding: 8px 0px;
+        border-radius: 8px;
+    }
+    .testimonial-section{
+        padding: 40px 0px;
+    }
+    .testimonial-section .testimonial-silder .testimonial-items{
+        gap: 0px;
+        padding: 12px;
+        margin: 1px;
+    }
+    .testimonial-section .testimonial-silder .testimonial-items > div > img{
+        display: none;
+    }
+    .testimonial-section .testimonial-silder .testimonial-items .testimonial-content .testimonial-icon{
+        margin-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 25px;
+    }
+    .testimonial-section .testimonial-silder .testimonial-items .testimonial-content .testimonial-icon i{
+        font-size: 12px;
+    }
+    .testimonial-section .testimonial-silder .testimonial-items .testimonial-content .description{
+        padding-left: 12px;
+    }
+    .testimonial-section .testimonial-silder .testimonial-items .testimonial-content .reviewer-info p{
+        font-size: 12px;
+    }
+    .contact-form-section ul li i{
+        margin-top: 2px;
+        font-size: 15px;
+    }
+    .contact-form-section ul li{
+        font-size: 13px;
+        gap: 5px;
+        margin-bottom: 4px;
+    }
+    .contact-info-items{
+        gap: 7px;
+        margin-bottom: 15px;
+    }
+    .contact-info-items div i{
+        padding: 12px;
+        font-size: 17px;
+    }
+    .contact-info-items .contact-info-content p{
+        font-size: 13px;
+    }
+    .contact-info-items div a{
+       font-size: 13px;
+    }
+
+    .contact-form-section .form-section {
+        padding: 15px;
+    }
+
+    .form-heading {
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+    .form-select {
+        font-size: 14px;
+    }
+    .form-control{
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .footer-container{
+        padding: 40px 10px 30px 10px;
+    }
+    .footer-container .description{
+        font-size: 14px;
+    }
+    .footer-container .sub-heading{
+        font-size: 17px;
+    }
+    .footer-services li a{
+        font-size: 14px;
+    }
+    .footer-contact p a{
+        font-size: 14px;
+    }
+    .footer-contact p{
+        font-size: 14px;
+    }
+    .footer-bottom-section{
+        padding: 20px 0px;
+    }
+    .footer-bottom-section p {
+        font-size: 13px;
+    }
+    #back-to-top-button {
+        width: 40px;
+        height: 40px;
+        bottom: 25px;
+        right: 25px;
+    }
+    #back-to-top-button::after {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .breadcrumb-section {
+        padding: 40px 0px;
+    }
+    .breadcrumb-section .breadcrumb-heading {
+        font-size: 18px;
+    }
+    .breadcrumb-section .breadcrumb {
+        margin-top: 0px;
+    }
+    .breadcrumb-section .breadcrumb .breadcrumb-item {
+        font-size: 12px;
+    }
+    .breadcrumb-section .breadcrumb .symbol-breadcrumb {
+        font-size: 11px;
+        padding: 0px 7px;
+    } 
+
+    .service-page-items{
+        padding: 15px;
+        margin-bottom: 25px;
+    }
+
+    .service-page-items .ser-content img{
+        top: 15px;
+        right: 15px;
+    }
+    .service-count{
+        right: 15px;
+        bottom: 15px;
+        font-size: 40px;
+    }
+    .step-section.step-section2{
+        padding: 40px 0px;
+    }
+    .whyChooseUs-points{
+        gap: 20px;
+    }
+    .whyChooseUs-items{
+        padding: 14px;
+        padding-bottom: 30px;
+    }
+    .whyChooseUs-items h4{
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .whyChooseUs-count{
+        font-size: 30px;
+    }
+    .service-detail-page .service-detail-silder{
+        margin-bottom: 0px;
+    }
+    .service-detail-page .service-sub-heading{
+        margin: 10px 0px;
+    }
+    .service-detail-steps-items-div{
+        margin: 10px 0px;
+    }
+    .service-detail-steps-items{
+        gap: 10px;
+        padding: 8px;
+        margin-bottom: 15px;
+    }
+    .service-detail-steps-items > div i{
+        font-size: 22px;
+        background-color: var(--thm-base2-light);
+        color: var(--thm-base3);
+        padding: 12px;
+        border-radius: 6px;
+    }
+    .service-detail-steps-items h5{
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    .service-detail-steps-items .description{
+        font-size: 13px;
+    }
+    .service-detail-page img{
+        margin-bottom: 15px;
+    }
+    .service-detail-faq{
+        padding: 15px;
+        border-radius: 10px;
+        margin: 25px 0px;
+    }
+    .service-detail-faq .faq-heading{
+        font-size: 18px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid var(--thm-base3);
+    }
+    .side-bar{
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .side-bar ul li a{
+        font-size: 15px;
+        padding: 12px;
+    }
+    .contact-form-section .social-media i{
+        font-size: 18px;
+    }
+    .cursor {
+        display: none;
+    } 
+}
